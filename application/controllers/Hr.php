@@ -75,6 +75,8 @@ class Hr extends CI_Controller
         $id = $id_karyawan;
         $id_kar = $id;
         $data["data"] = $this->karyawan_model->getdatakaryawan($id_karyawan);
+        $x = $this->karyawan_model->get_karyawan($id);
+        $data['data1'] =  json_decode(json_encode($x), true);
         $data['pendidikan'] = $this->karyawan_model->pendidikan($id);
 
 

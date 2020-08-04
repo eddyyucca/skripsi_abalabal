@@ -41,7 +41,7 @@ class User_karyawan extends CI_Controller
         $data['pasangan'] =  $this->karyawan_model->get_datapasangan($id_kar);
         $data['anak'] = $this->karyawan_model->getanak($id_kar);
         $data['ortu'] = $this->karyawan_model->orangtuaget($id_kar);
-        $data['overtime'] = $this->karyawan_model->hitung_overtime($id_kar);
+        // $data['overtime'] = $this->karyawan_model->hitung_overtime($id_kar);
 
         $this->load->view('user_karyawan/template_user/header', $data);
         $this->load->view('user_karyawan/index', $data);
