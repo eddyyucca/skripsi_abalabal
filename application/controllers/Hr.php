@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-require_once APPPATH . "/third_party/PHPExcel/PHPExcel.php";
-require_once APPPATH . "/third_party/PHPExcel/PHPExcel/IOFactory.php";
+// require_once APPPATH . "/third_party/PHPExcel/PHPExcel.php";
+// require_once APPPATH . "/third_party/PHPExcel/PHPExcel/IOFactory.php";
 
 class Hr extends CI_Controller
 {
@@ -86,7 +86,7 @@ class Hr extends CI_Controller
         $data['pasangan'] =  $this->karyawan_model->get_datapasangan($id_kar);
         $data['anak'] = $this->karyawan_model->getanak($id_kar);
         $data['ortu'] = $this->karyawan_model->orangtuaget($id_kar);
-        $data['overtime'] = $this->karyawan_model->hitung_overtime($id_kar);
+        // $data['overtime'] = $this->karyawan_model->hitung_overtime($id_kar);
         $this->load->view('hr/template_hr/header', $data);
         $this->load->view('hr/karyawan/view_karyawan', $data);
         $this->load->view('hr/template_hr/footer');
@@ -203,7 +203,7 @@ class Hr extends CI_Controller
         // whatsapp gateway
         $pesan = 'PT. Hasnur Riung Sinergi, Silahkan lengkapi data diri anda di www.hrsmining.com dengan user login NRP & Password ' . $id_kar;
         $userkey = '714af2219e84';
-        $passkey = 'nn2ra3ux8b';
+        $passkey = 'cd9b7976914f8166513a1273';
         $telepon = $this->input->post('no_telp');
         $message = $pesan;
         $url = 'https://gsm.zenziva.net/api/sendWA/';
@@ -676,11 +676,12 @@ class Hr extends CI_Controller
             'id_dep' => $this->input->post('dep'),
             'id_jab' => $this->input->post('jab'),
             'foto' => $file1["orig_name"],
+            'status_karyawan' => $this->input->post('status_karyawan')
         );
 
 
         $this->karyawan_model->update_karyawan($data, $id);
-        redirect('user_karyawan');
+        redirect('hr/karyawan');
     }
 }
 

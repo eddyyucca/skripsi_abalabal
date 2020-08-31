@@ -16,6 +16,8 @@ class Catering extends CI_Controller
             redirect('hr');
         } elseif ($level_akun == "admin_dep") {
             redirect('auth');
+        } elseif ($level_akun == "user") {
+            redirect('auth');
         }
     }
     public function index()

@@ -115,9 +115,11 @@
                         </tr>
                         <tr>
                             <td>Status Karyawan</td>
-                            <td>
-                            <td><input type="text" name="status" class="form-control" value="<?= $getid->status_karyawan ?>" placeholder="Email"></td>
-                            </td>
+                            <td><select name="status_karyawan" class="form-control" disabled>
+                                    <option value="">--PILIH STATUS--</option>
+                                    <option value="Aktif" <?= $getid->status_karyawan == "Aktif" ? 'selected=selected' : ''; ?>>Aktif</option>
+                                    <option value="Berhenti" <?= $getid->status_karyawan == "Berhenti" ? 'selected=selected' : ''; ?>>Berhenti</option>
+                                </select></td>
                         </tr>
                         <tr>
                             <td colspan="2">
