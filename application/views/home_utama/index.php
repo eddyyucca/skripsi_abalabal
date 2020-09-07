@@ -53,19 +53,7 @@
                 </div>
             </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-                    <li class="nav-item">
-                        <a class="nav-link link text-white display-4" href="https://mobirise.co"><span class="mbrib-chat mbr-iconfont mbr-iconfont-btn"></span>
 
-                            Berita</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link text-white display-4" href="https://mobirise.co"><span class="mbrib-photos mbr-iconfont mbr-iconfont-btn"></span>
-
-                            Galeri</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link link text-white display-4" href="https://mobirise.co"><span class="mobi-mbri mobi-mbri-briefcase mbr-iconfont mbr-iconfont-btn"></span>Karir</a></li>
-                </ul>
                 <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="<?= base_url('auth') ?>"><span class="mobi-mbri mobi-mbri-login mbr-iconfont mbr-iconfont-btn"></span>
 
                         Login</a></div>
