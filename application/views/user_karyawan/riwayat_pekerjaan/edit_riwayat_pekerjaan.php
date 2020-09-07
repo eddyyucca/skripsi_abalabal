@@ -12,31 +12,31 @@
                             <tr>
                                 <td width=20%>Nama Perusahaan</td>
                                 <td>
-                                    <input type="text" name="nama_perusahaan" value="<?= $rw->nama_perusahaan ?>" class="form-control" placeholder="Nama Perusahaan">
+                                    <input type="text" name="nama_perusahaan" value="<?= $rw->nama_perusahaan ?>" class="form-control" required placeholder="Nama Perusahaan">
                                 </td>
                             </tr>
                             <tr>
                                 <td width=20%>Bidang Usaha</td>
                                 <td>
-                                    <input type="text" name="bidang_usaha" value="<?= $rw->bidang_usaha ?>" class="form-control" placeholder="Bidang Usaha">
+                                    <input type="text" name="bidang_usaha" value="<?= $rw->bidang_usaha ?>" class="form-control" required placeholder="Bidang Usaha">
                                 </td>
                             </tr>
                             <tr>
                                 <td width=20%>Jabatan Terakhir</td>
                                 <td>
-                                    <input type="text" name="jab_terakhir" value="<?= $rw->jab_terakhir ?>" class="form-control" placeholder="Jabatan Terakhir">
+                                    <input type="text" name="jab_terakhir" value="<?= $rw->jab_terakhir ?>" class="form-control" required placeholder="Jabatan Terakhir">
                                 </td>
                             </tr>
                             <tr>
                                 <td width=20%>Gaji Terakhir</td>
                                 <td>
-                                    <input type="text" name="gaji_terakhir" value="<?= $rw->gaji_terakhir ?>" class="form-control" placeholder="Gaji Terakhir">
+                                    <input type="text" name="gaji_terakhir" value="<?= $rw->gaji_terakhir ?>" class="form-control" required placeholder="Gaji Terakhir">
                                 </td>
                             </tr>
                             <tr>
                                 <td width=20%>Periode</td>
                                 <td>
-                                    <input type="text" name="periode" value="<?= $rw->periode ?>" placeholder="Periode" class="form-control">
+                                    <input type="text" name="periode" value="<?= $rw->periode ?>" required placeholder="Periode" class="form-control">
                                 </td>
                             </tr>
                             <tr>

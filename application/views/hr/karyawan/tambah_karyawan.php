@@ -11,11 +11,11 @@
                         <table class="table">
                             <tr>
                                 <td width=20%>Nama Lengkap</td>
-                                <td><input type="text" name="nama_lengkap" class="form-control" placeholder="Nama Lengkap"></td>
+                                <td><input type="text" name="nama_lengkap" class="form-control" required placeholder="Nama Lengkap"></td>
                             </tr>
                             <tr>
                                 <td>Nama Panggilan</td>
-                                <td><input type="text" name="nama_panggilan" class="form-control" placeholder="Nama panggilan"></td>
+                                <td><input type="text" name="nama_panggilan" class="form-control" required placeholder="Nama panggilan"></td>
                             </tr>
                             <tr>
                                 <td>Jenis Kelamin</td>
@@ -26,7 +26,7 @@
                             </tr>
                             <tr>
                                 <td>Tempat/Tanggal/Lahir</td>
-                                <td><input type="text" name="tempat" class="form-control" placeholder="Tempat">
+                                <td><input type="text" name="tempat" class="form-control" required placeholder="Tempat">
                                     <input type="date" name="ttl" class="form-control"></td>
                             </tr>
                             <tr>
@@ -39,7 +39,7 @@
                             </tr>
                             <tr>
                                 <td>Telpon</td>
-                                <td><input type="text" name="no_telp" class="form-control" placeholder="Telpon"></td>
+                                <td><input type="text" name="no_telp" class="form-control" required placeholder="Telpon"></td>
                             </tr>
                             <tr>
                                 <td>Agama</td>
@@ -54,45 +54,45 @@
                             </tr>
                             <tr>
                                 <td>kewarganegaraan</td>
-                                <td><input type="text" name="warganegra" class="form-control" placeholder="kewarganegaraan"></td>
+                                <td><input type="text" name="warganegra" class="form-control" required placeholder="kewarganegaraan"></td>
                             </tr>
                             <tr>
                                 <td>Suku</td>
-                                <td><input type="text" name="suku" class="form-control" placeholder="Suku"></td>
+                                <td><input type="text" name="suku" class="form-control" required placeholder="Suku"></td>
                             </tr>
 
 
                             <tr>
                                 <td>Tinggi Badan</td>
-                                <td><input type="number" name="tinggi_badan" class="form-control" placeholder="Tinggi Badan"></td>
+                                <td><input type="number" name="tinggi_badan" class="form-control" required placeholder="Tinggi Badan"></td>
                             </tr>
                             <tr>
                                 <td>Berat Badan</td>
-                                <td><input type="text" name="berat_badan" class="form-control" placeholder="Berat Badan"></td>
+                                <td><input type="text" name="berat_badan" class="form-control" required placeholder="Berat Badan"></td>
                             </tr>
                             <tr>
                                 <td>Rhesus</td>
-                                <td><input type="text" name="rhesus" class="form-control" placeholder="Rhesus"></td>
+                                <td><input type="text" name="rhesus" class="form-control" required placeholder="Rhesus"></td>
                             </tr>
                             <tr>
                                 <td>Ukuran Baju</td>
-                                <td><input type="text" name="ukuran_baju" class="form-control" placeholder="Ukuran Baju"></td>
+                                <td><input type="text" name="ukuran_baju" class="form-control" required placeholder="Ukuran Baju"></td>
                             </tr>
                             <tr>
                                 <td>Ukuran Celana</td>
-                                <td><input type="text" name="ukuran_celana" class="form-control" placeholder="Ukuran Celana"></td>
+                                <td><input type="text" name="ukuran_celana" class="form-control" required placeholder="Ukuran Celana"></td>
                             </tr>
                             <tr>
                                 <td>Ukuran Sepatu</td>
-                                <td><input type="text" name="ukuran_sepatu" class="form-control" placeholder="Ukuran Sepatu"></td>
+                                <td><input type="text" name="ukuran_sepatu" class="form-control" required placeholder="Ukuran Sepatu"></td>
                             </tr>
                             <tr>
                                 <td>Hobi</td>
-                                <td><input type="text" name="hobi" class="form-control" placeholder="Hobi"></td>
+                                <td><input type="text" name="hobi" class="form-control" required placeholder="Hobi"></td>
                             </tr>
                             <tr>
                                 <td>Email</td>
-                                <td><input type="email" name="email" class="form-control" placeholder="Email"></td>
+                                <td><input type="email" name="email" class="form-control" required placeholder="Email"></td>
                             </tr>
                             <tr>
                                 <td>Departemen</td>
@@ -128,11 +128,11 @@
 
 <!--  <tr>
                                 <td>Nomor Kependudukan</td>
-                                <td><input type="text" name="no_ktp" class="form-control" placeholder="Nomor Kependudukan"></td>
+                                <td><input type="text" name="no_ktp" class="form-control" required placeholder="Nomor Kependudukan"></td>
                             </tr>
                             <tr>
                                 <td>Alamat KTP</td>
-                                <td><input type="text" name="alamat_ktp" class="form-control" placeholder="Alamat Pada KTP"></td>
+                                <td><input type="text" name="alamat_ktp" class="form-control" required placeholder="Alamat Pada KTP"></td>
                             </tr>
                             <tr>
                                 <td>Masa Berlaku KTP</td>
@@ -140,11 +140,11 @@
                             </tr>
                             <tr>
                                 <td>Nomor SIM A</td>
-                                <td><input type="text" name="no_sim_a" class="form-control" placeholder="Nomor SIM A"></td>
+                                <td><input type="text" name="no_sim_a" class="form-control" required placeholder="Nomor SIM A"></td>
                             </tr>
                             <tr>
                                 <td>Alamat Pada SIM A</td>
-                                <td><input type="text" name="alamat_sim_a" class="form-control" placeholder="Alamat Pada SIM A"></td>
+                                <td><input type="text" name="alamat_sim_a" class="form-control" required placeholder="Alamat Pada SIM A"></td>
                             </tr>
                             <tr>
                                 <td>Masa Berlaku SIM A</td>
@@ -152,11 +152,11 @@
                             </tr>
                             <tr>
                                 <td>Nomor SIM C</td>
-                                <td><input type="text" name="no_sim_c" class="form-control" placeholder="Nomor SIM C"></td>
+                                <td><input type="text" name="no_sim_c" class="form-control" required placeholder="Nomor SIM C"></td>
                             </tr>
                             <tr>
                                 <td>Alamat Pada SIM C</td>
-                                <td><input type="text" name="alamat_sim_c" class="form-control" placeholder="Alamat Pada SIM C"></td>
+                                <td><input type="text" name="alamat_sim_c" class="form-control" required placeholder="Alamat Pada SIM C"></td>
                             </tr>
                             <tr>
                                 <td>Masa Berlaku SIM C</td>
@@ -164,23 +164,23 @@
                             </tr>
                             <tr>
                                 <td>No NPWP</td>
-                                <td><input type="number" name="no_npwp" class="form-control" placeholder="No NPWP"></td>
+                                <td><input type="number" name="no_npwp" class="form-control" required placeholder="No NPWP"></td>
                             </tr>
                             <tr>
                                 <td>No BPJS Tenagakerja</td>
-                                <td><input type="number" name="no_bpjs_tenagakerja" class="form-control" placeholder="No BPJS Tenagakerja"></td>
+                                <td><input type="number" name="no_bpjs_tenagakerja" class="form-control" required placeholder="No BPJS Tenagakerja"></td>
                             </tr>
                             <tr>
                                 <td>No BPJS Kesehatan</td>
-                                <td><input type="number" name="no_bpjs_kes" class="form-control" placeholder="No BPJS Kesehatan"></td>
+                                <td><input type="number" name="no_bpjs_kes" class="form-control" required placeholder="No BPJS Kesehatan"></td>
                             </tr>
                             <tr>
                                 <td>Nomor Passport</td>
-                                <td><input type="number" name="no_passport" class="form-control" placeholder="Nomor Passport"></td>
+                                <td><input type="number" name="no_passport" class="form-control" required placeholder="Nomor Passport"></td>
                             </tr>
                             <tr>
                                 <td>Alamat Pada Pasport</td>
-                                <td><input type="text" name="alamat_passport" class="form-control" placeholder="Alamat Pada Passport"></td>
+                                <td><input type="text" name="alamat_passport" class="form-control" required placeholder="Alamat Pada Passport"></td>
                             </tr>
                             <tr>
                                 <td>Masa Berlaku Passport</td>

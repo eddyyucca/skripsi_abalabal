@@ -26,19 +26,19 @@
                             <tr>
                                 <td width=20%>Nama Sekolah</td>
                                 <td>
-                                    <input type="text" name="nama_sekolah" class="form-control" placeholder="Nama Sekolah">
+                                    <input type="text" name="nama_sekolah" class="form-control" required placeholder="Nama Sekolah">
                                 </td>
                             </tr>
                             <tr>
                                 <td width=20%>Jurusan</td>
                                 <td>
-                                    <input type="text" name="nama_jurusan" class="form-control" placeholder="Jurusan Sekolah">
+                                    <input type="text" name="nama_jurusan" class="form-control" required placeholder="Jurusan Sekolah">
                                 </td>
                             </tr>
                             <tr>
                                 <td width=20%>Nama Kota Pendidikan</td>
                                 <td>
-                                    <input type="text" name="kota_pendidikan" class="form-control" placeholder="Kota Pendidikan">
+                                    <input type="text" name="kota_pendidikan" class="form-control" required placeholder="Kota Pendidikan">
                                 </td>
                             </tr>
                             <tr>

@@ -12,19 +12,19 @@
                             <tr>
                                 <td width=20%>Bidang Pelatihan</td>
                                 <td>
-                                    <input type="text" name="bidang" value="<?= $pelatihan->bidang ?>" class="form-control" placeholder="Bidang Pelatihan">
+                                    <input type="text" name="bidang" value="<?= $pelatihan->bidang ?>" class="form-control" required placeholder="Bidang Pelatihan">
                                 </td>
                             </tr>
                             <tr>
                                 <td width=20%>Penyelenggara</td>
                                 <td>
-                                    <input type="text" name="penyelenggara" value="<?= $pelatihan->penyelenggara ?>" class="form-control" placeholder="Penyelenggara">
+                                    <input type="text" name="penyelenggara" value="<?= $pelatihan->penyelenggara ?>" class="form-control" required placeholder="Penyelenggara">
                                 </td>
                             </tr>
                             <tr>
                                 <td width=20%>Periode</td>
                                 <td>
-                                    <input type="text" name="periode" value="<?= $pelatihan->periode ?>" class="form-control" placeholder="Periode">
+                                    <input type="text" name="periode" value="<?= $pelatihan->periode ?>" class="form-control" required placeholder="Periode">
                                 </td>
                             </tr>
 

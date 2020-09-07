@@ -11,21 +11,21 @@
                     <table class="table">
                         <tr>
                             <td width=20%>Nama Lengkap</td>
-                            <td><input type="text" name="nama_lengkap_anak" class="form-control" placeholder="Nama Lengkap"></td>
+                            <td><input type="text" name="nama_lengkap_anak" class="form-control" required placeholder="Nama Lengkap"></td>
                         </tr>
                         <tr>
                             <td>Nama Panggilan</td>
-                            <td><input type="text" name="nama_panggilan_anak" class="form-control" placeholder="Nama panggilan"></td>
+                            <td><input type="text" name="nama_panggilan_anak" class="form-control" required placeholder="Nama panggilan"></td>
                         </tr>
 
                         <tr>
                             <td>Tempat/Tanggal/Lahir</td>
-                            <td><input type="text" name="tempat_anak" class="form-control" placeholder="Tempat">
+                            <td><input type="text" name="tempat_anak" class="form-control" required placeholder="Tempat">
                                 <input type="date" name="ttl_anak" class="form-control"></td>
                         </tr>
                         <tr>
                             <td>No KTP</td>
-                            <td><input type="text" name="no_ktp_anak" class="form-control" placeholder="No KTP"></td>
+                            <td><input type="text" name="no_ktp_anak" class="form-control" required placeholder="No KTP"></td>
                         </tr>
                         <tr>
                             <td>Alamat Saat Ini</td>
@@ -48,7 +48,7 @@
                         </tr>
                         <tr>
                             <td>Telpon</td>
-                            <td><input type="text" name="no_telp_anak" class="form-control" placeholder="Telpon"></td>
+                            <td><input type="text" name="no_telp_anak" class="form-control" required placeholder="Telpon"></td>
                         </tr>
                         <tr>
                             <td>Agama</td>
@@ -63,11 +63,11 @@
                         </tr>
                         <tr>
                             <td>kewarganegaraan</td>
-                            <td><input type="text" name="warganegara_anak" class="form-control" placeholder="kewarganegaraan"></td>
+                            <td><input type="text" name="warganegara_anak" class="form-control" required placeholder="kewarganegaraan"></td>
                         </tr>
                         <tr>
                             <td>Suku</td>
-                            <td><input type="text" name="suku_anak" class="form-control" placeholder="Suku"></td>
+                            <td><input type="text" name="suku_anak" class="form-control" required placeholder="Suku"></td>
                         </tr>
                         <tr>
                             <td>

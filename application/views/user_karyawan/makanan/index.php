@@ -12,7 +12,7 @@
                             <tr>
                                 <td width=20%>Tanggal</td>
                                 <td>
-                                    <input type="date" name="tanggal_pesanan" class="form-control">
+                                    <input type="date" required name="tanggal_pesanan" class="form-control">
                                 </td>
                             </tr>
                             <tr>
