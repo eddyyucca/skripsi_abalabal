@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="shortcut icon" href="assets/images/logo-pt-hrs-ok-122x104.png" type="image/x-icon">
     <meta name="description" content="">
-
+    tes
     <title>Selamat Datang HRSmining.com</title>
     <link rel="stylesheet" href="<?= base_url('assets') ?>/assets_home/web/assets/mobirise-icons/mobirise-icons.css">
     <link rel="stylesheet" href="<?= base_url('assets') ?>/assets_home/web/assets/mobirise-icons2/mobirise2.css">
@@ -103,7 +103,8 @@
                                         <h2 class="mbr-fonts-style display-1"><b>Selamat datang di website <br> PT. Hasnur Riung Sinergi </b></h2>
                                         <p class="lead mbr-text mbr-fonts-style display-7">Selamat Datang di situs resmi www.hrsmining.com. Setelah beberapa waktu dikembangkan, saat ini PT. Hasnur Riung Sinergi telah meluncurkan kembali website resmi sebagai media publikasi, informasi, berita, dan komunikasi.
                                             <br>Anda dapat menemukan berbagai informasi disini, meliputi informasi mengenai perusahaan, berita dan karir.
-                                            <br>Terimakasih, dan semoga bermanfaat bagi kita semua.</p>
+                                            <br>Terimakasih, dan semoga bermanfaat bagi kita semua.
+                                        </p>
                                         <!-- <div class="mbr-section-btn" buttons="0"><a class="btn btn-info display-4" href="https://mobirise.com">FOR WINDOWS</a> <a class="btn  btn-white-outline display-4" href="https://mobirise.com">FOR MAC</a></div> -->
                                     </div>
                                 </div>
